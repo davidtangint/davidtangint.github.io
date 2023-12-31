@@ -13,7 +13,6 @@ body{
 }
 .container{
     padding:10px 10%;
-    /* background: #c50f0f; */
 }
 
 #header-title{
@@ -90,71 +89,15 @@ nav ul li a:hover{
     color: #fff;
     border: 1px solid #ffffff;
 }
-/* ------------------------- about me ---------------------- */
 
-#resume{
-    padding: 10px 0;
-    background: rgb(187, 184, 201);
-    color: #fafafa;
-}
+/* ------------------- work page --------------------- */
 
-/* ---------------------- portfolio ----------------- */
-
-#portfolio{
-    padding: 10px 0;
-    /* background: #494949; */
-}
-.work-list{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 40px;
-    margin-top: 0px 0px;
-    /* background: #123132; */
-}
-.work{
-    /* border-color: #111111; */
-    /* border-radius: 0px; */
-    position: relative;
-    overflow: hidden;
-    text-align: left;
-    /* background: #686906; */
-}
-.work img{
-    width: 100%;
-    border-radius: 0px;
-    display: block;
-    margin: 20px 0px;
-}
-/* .work:hover img{
-    opacity: 80%
-} */
-
-.subtitle p{
-    display: block;
-    font-family: 'Montserrat', 'Times New Roman', system-ui, sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    letter-spacing: +1px;
-    margin: 12px 0px; /* Add some space between the title and the overlay */
-    position: relative; /* Ensure the title is positioned relative to its container */
-    /* background: #ae2c2c; */
+.work-page{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
-.work-desc p{
-    font-family: 'Afacad', 'Roboto', system-ui, sans-serif;
-    font-size: 16px;
-    font-weight: 200;
-    margin: 10px 0px;
-    position: relative; /* Ensure the title is positioned relative to its container */
-}
-
-.work-desc a{
-    font-family: 'Afacad', 'Roboto', system-ui, sans-serif;
-    font-size: 16px;
-    font-weight: 200;
-    color: #000;
-    position: relative; /* Ensure the title is positioned relative to its container */
-}
 /* --------- about --------- */
 
 #about{
@@ -165,22 +108,63 @@ nav ul li a:hover{
     justify-content: space-evenly;
 }
 .about-col-1{
-    flex-basis: 35%;
+    /* flex-basis: 10%; */
 }
-.about-col-1 img{
+/* .about-col-1 img{
     width: 400px;
     height: auto;
-}
+} */
 .about-col-2{
-    flex-basis: 40%;
+    flex-basis: 35%;
 }
+
 .title h2{
     font-family: 'Montserrat', system-ui, sans-serif;;
     font-size: 30px;
     font-weight: 600;
-    text-align: center;
+    text-align: left;
     letter-spacing: +2px;
 }
+.date p{
+    font-family: 'Afacad', 'Roboto', system-ui, sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    margin: 10px 0px;
+    color: #5b5b5b;
+    position: relative; /* Ensure the title is positioned relative to its container */
+}
+
+.subtitle p{
+    display: block;
+    font-family: 'Montserrat', 'Times New Roman', system-ui, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: +1px;
+    margin-bottom: 1%;
+    margin-top: 8%;
+    position: relative; /* Ensure the title is positioned relative to its container */
+    /* background: #ae2c2c; */
+}
+
+/* .work-desc p{
+    font-family: 'Afacad', 'Roboto', system-ui, sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    margin: 10px 0px;
+    position: relative;
+} */
+
+.work-desc a{
+    font-family: 'Afacad', 'Roboto', system-ui, sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    color: #000;
+    position: relative; /* Ensure the title is positioned relative to its container */
+}
+
+/* ------ footer ------- */
+
+
 #copyright{
     align-content: center;
     text-align: center;
