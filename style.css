@@ -143,11 +143,3 @@ nav ul li a:hover{
     margin-bottom: 20%;
     letter-spacing: +2px;
 }
-#copyright{
-    /* align-content: center; */
-    text-align: center;
-}
-#copyright .container{
-    margin-bottom: 10px;
-    /* font-weight: 300; */
-}

@@ -157,15 +157,3 @@ nav ul li a:hover{
     color: #000;
     position: relative; /* Ensure the title is positioned relative to its container */
 }
-
-/* ------ footer ------- */
-
-
-#copyright{
-    align-content: center;
-    text-align: center;
-}
-#copyright .container{
-    margin-bottom: 10px;
-    /* font-weight: 300; */
-}
