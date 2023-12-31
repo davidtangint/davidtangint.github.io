@@ -44,7 +44,8 @@ nav{
     font-size: 30px;
     font-family: 'Afacad', 'Mukta', system-ui, sans-serif;
     font-weight: 500;
-    /* color: #ffffff; */
+    text-decoration: none;
+    color: #000;
 }
 
 nav ul li{
@@ -101,13 +102,28 @@ nav ul li a:hover{
 /* --------- about --------- */
 
 #about{
-    padding: 80px 0;
+    padding: 20px 0;
+}
+
+/* ------- center form -------- */
+.center-form{
+    align-items: center;
+    text-align: center;
+}
+.center-form .title h2{
+    /* margin-bottom: 1%; */
+    text-align: center;
+}
+.center-form .date p{
+    margin-bottom: 1%;
+    text-align: center;
 }
 .row{
     display: flex;
     justify-content: space-evenly;
 }
 .about-col-1{
+    color:#000;
     /* flex-basis: 10%; */
 }
 /* .about-col-1 img{
