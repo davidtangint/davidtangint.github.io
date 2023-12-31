@@ -9,7 +9,6 @@ Creation date: 2023/12/28
 
 <head>
     <meta charset="UTF-8">
-    <!-- <meta http-equiv="X-UA-Compatible" content="IE-edge"> -->
     <meta name="viewpoint" content="width-device-width, intial-scale=1.0">
     <title>David Tang | Portfolio</title>
 
@@ -17,21 +16,18 @@ Creation date: 2023/12/28
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
     <link href="https://fonts.googleapis.com/css2?family=Afacad:wght@400;500;600&family=Montserrat:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="generic.css">
+    <link rel="stylesheet" href="work.css">
+    <link rel="stylesheet" href="headerfooter.css">
+
+    <script src="https://kit.fontawesome.com/26e47a89eb.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
 
 <div id="header-generic">
     <div class="container">
-        <nav>
-            <a href="index.html" class="name">DAVID J TANG</a>
-            <ul>
-                <li><a href="index.html">Portfolio</a></li>
-                <li><a href="index.html#about">About</a></li>
-                <!-- <li><a href="index.html#contact">Contact</a></li> -->
-            </ul>
-        </nav>
+        <custom-work-header></custom-work-header>
     </div>
 </div> 
 
@@ -44,7 +40,7 @@ Creation date: 2023/12/28
             <div class="about-col-2">
                 <div class="title"><h2>VIS-NIR SPECTROMETER TESTING</h2></div>
 
-                <div class="date"><p>R&D Testing</p></div>
+                <div class="date"><p>Spectroscopy R&D</p></div>
 
                 <div class="subtitle"><p>OBJECTIVE</p></div>
                 <p>To create a cost-effective, non-destructive method of assessing Hass avocado maturity using a portable spectrometer prototype. By identifying optimal wavelengths, the research aims to overcome the limitations of conventional postharvest quality assessment methods.</p>
@@ -59,6 +55,9 @@ Creation date: 2023/12/28
         </div>
 </div>
 
+<custom-footer></custom-footer>
+
+<script src="headerfooter.js"></script>
 </body>
 
 </html>
