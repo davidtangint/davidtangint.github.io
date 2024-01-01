@@ -142,6 +142,15 @@ nav ul li a:hover{
     font-size: 30px;
     font-weight: 600;
     margin-top: 10%;
-    margin-bottom: 20%;
+    margin-bottom: 10%;
     letter-spacing: +2px;
+}
+.about-col-2 .subtitle p{
+    margin-top: 10%;
+}
+.about-col-2 p a{
+    color: #505050;
+}
+.about-col-2 p a:hover{
+    color: #000;
 }

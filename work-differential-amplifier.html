@@ -10,7 +10,7 @@ Creation date: 2023/12/28
 <head>
     <meta charset="UTF-8">
     <meta name="viewpoint" content="width-device-width, intial-scale=1.0">
-    <title>David Tang | Portfolio</title>
+    <title>Differential Amplifier | David Tang</title>
 
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
@@ -18,6 +18,8 @@ Creation date: 2023/12/28
 
     <link rel="stylesheet" href="work.css">
     <link rel="stylesheet" href="headerfooter.css">
+    <link rel="stylesheet" href="slider.css">
+
 
     <script src="https://kit.fontawesome.com/26e47a89eb.js" crossorigin="anonymous"></script>
 
@@ -35,7 +37,45 @@ Creation date: 2023/12/28
     <div class="container">
         <div class="row">
             <div class="about-col-1">
-                <iframe src="https://drive.google.com/file/d/1W3kMnQrapE1Wicw7_9vQTQq8LQ2mMbZy/preview" width="600" height="700" allow="autoplay"></iframe>
+
+                <div class="slider-wrapper">
+                    <div class="slider">
+                        <img id="slide-1" src="images/work-amp/idealCMRR.png" alt="">
+                        <img id="slide-2" src="images/work-amp/idealDC.png" alt="">
+                        <img id="slide-3" src="images/work-amp/idealTB.png" alt="">
+        
+                    </div>
+                    <div class="slider-nav">
+                        
+                        <a href="#slide-1"></a>
+                        <a href="#slide-2"></a>
+                        <a href="#slide-3"></a>
+        
+                    </div>
+                </div>
+
+            </div>
+            <div class="about-col-2">
+                <div class="title"><h2>DIFFERENTIAL AMPLIFIER</h2></div>
+
+                <div class="date"><p>Analog Microcircuit Design</p></div>
+
+                <div class="subtitle"><p>OBJECTIVE</p></div>
+                <p>To design and simulate a differential amplifier with resistive load under two conditions: 1) ideal tail current source and 2) real tail current source using a current mirror. Both designs must meet given parameters.</p>
+                <div class="subtitle"><p>PROCESS</p></div>
+                <p>Both designs were iteratively achieved by repeating steps until meeting target parameters (VDD, Gain, Supply Current). Hand calculations were performed initially to determine DC and AC parameters, followed by the use of Cadence for finalizing and conducting DC, AC, and Transient simulations.</p>
+                <div class="subtitle"><p>RESULTS</p></div>
+                <p>The simulated amplifier closely matches design specifications, with VDD at 2.5 V, Gain surpassing the minimum by 0.23 dB, and the Supply Current staying 0.1 to 0.4 mA below the specified maximum.</p>
+                <br>
+            </div>
+        </div>
+</div>
+
+<!-- <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <iframe src="https://drive.google.com/file/d/1QkYWWfMlWLOX1IAYIkSAt8faHuThrMDl/preview" width="850" height="630" allow="autoplay"></iframe>            
             </div>
             <div class="about-col-2">
                 <div class="title"><h2>DIFFERENTIAL AMPLIFIER</h2></div>
@@ -53,7 +93,7 @@ Creation date: 2023/12/28
                 <br>
             </div>
         </div>
-</div>
+</div> -->
 
 <!-- <custom-footer></custom-footer> -->
 
