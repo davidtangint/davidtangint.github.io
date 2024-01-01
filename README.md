@@ -3,11 +3,11 @@ Designed and developed by David J. Tang
 
 Credits:
 
-	Carousel:
-		Bootstrap(getbootstrap.com)
+Carousel:
+Bootstrap(getbootstrap.com)
 
-	Icons:
-		Font Awesome (fontawesome.io)
+Icons:
+Font Awesome (fontawesome.io)
 
   Fonts:
-    Google Fonts (fonts.google.com)
+Google Fonts (fonts.google.com)
