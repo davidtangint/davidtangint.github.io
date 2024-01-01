@@ -14,7 +14,6 @@ body{
 .container{
     padding:10px 10%;
 }
-
 /* ---------------- white bg specifics ---------- */
 
 .name{
@@ -85,6 +84,8 @@ nav ul li a:hover{
     margin-bottom: 1%;
     text-align: center;
 }
+
+/* --------- generic form ------- */
 .row{
     display: flex;
     justify-content: space-evenly;

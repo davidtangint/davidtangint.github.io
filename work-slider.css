@@ -1,0 +1,26 @@
+.carousel{
+    padding: 0px 0px 5%;
+}
+/* --------- bootstrap custom ---------- */
+.container1{
+    padding:10px 10% 0px;   /* for nav */
+}
+.container2{
+    padding:0px 20% 10px;   /* for carousel */
+}
+.container3{
+    padding:0px 20%;   /* for text */
+    /* background-color: aqua; */
+}
+.slider-form .carousel.slide{
+    align-items: center;
+    text-align: center;
+}
+.slider-form {
+    margin-bottom: 1%;
+    text-align: left;
+}
+.slider-form .container3 .subtitle p{
+    margin-bottom: 0.5%;
+    margin-top: 5%;
+}

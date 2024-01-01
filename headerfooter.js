@@ -35,7 +35,7 @@ class CustomFooter extends HTMLElement{
         this.innerHTML = `
         <div id="copyright">
             <div class="container">
-                <p>© Designed by David Tang | Last Updated 2023/12/30</p>
+                <p>© 2023 - 2024 | Developed by David J. Tang | Last Updated 2023/12/31</p>
             </div>
         </div>
         `

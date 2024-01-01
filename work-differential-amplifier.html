@@ -12,13 +12,13 @@ Creation date: 2023/12/28
     <meta name="viewpoint" content="width-device-width, intial-scale=1.0">
     <title>Differential Amplifier | David Tang</title>
 
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
     <link href="https://fonts.googleapis.com/css2?family=Afacad:wght@400;500;600&family=Montserrat:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="work.css">
     <link rel="stylesheet" href="headerfooter.css">
-    <link rel="stylesheet" href="slider.css">
+    <link rel="stylesheet" href="work-slider.css">
 
 
     <script src="https://kit.fontawesome.com/26e47a89eb.js" crossorigin="anonymous"></script>
@@ -28,76 +28,76 @@ Creation date: 2023/12/28
 <body>
 
 <div id="header-generic">
-    <div class="container">
+    <div class="container1">
         <custom-work-header></custom-work-header>
     </div>
 </div> 
 
 <div id="about">
-    <div class="container">
-        <div class="row">
-            <div class="about-col-1">
-
-                <div class="slider-wrapper">
-                    <div class="slider">
-                        <img id="slide-1" src="images/work-amp/idealCMRR.png" alt="">
-                        <img id="slide-2" src="images/work-amp/idealDC.png" alt="">
-                        <img id="slide-3" src="images/work-amp/idealTB.png" alt="">
-        
-                    </div>
-                    <div class="slider-nav">
-                        
-                        <a href="#slide-1"></a>
-                        <a href="#slide-2"></a>
-                        <a href="#slide-3"></a>
-        
-                    </div>
+    <div class="container2">
+        <div class="slider-form">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
 
-            </div>
-            <div class="about-col-2">
+                    <img src="images/work-amp/idealCMRR.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>First slide label</h5>
+                      <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                  </div>
+                  
+                  <div class="carousel-item">
+                    <img src="images/work-amp/idealDC.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Second slide label</h5>
+                      <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <img src="images/work-amp/idealGain.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Third slide label</h5>
+                      <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                  </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div> 
+
+            <div class="container3">
                 <div class="title"><h2>DIFFERENTIAL AMPLIFIER</h2></div>
-
                 <div class="date"><p>Analog Microcircuit Design</p></div>
 
                 <div class="subtitle"><p>OBJECTIVE</p></div>
-                <p>To design and simulate a differential amplifier with resistive load under two conditions: 1) ideal tail current source and 2) real tail current source using a current mirror. Both designs must meet given parameters.</p>
+                <p>To design and simulate a differential amplifier with resistive load under two conditions: 1) ideal tail current source and 2) real tail current source using a current mirror. Both designs must meet the given parameters.</p>
                 <div class="subtitle"><p>PROCESS</p></div>
                 <p>Both designs were iteratively achieved by repeating steps until meeting target parameters (VDD, Gain, Supply Current). Hand calculations were performed initially to determine DC and AC parameters, followed by the use of Cadence for finalizing and conducting DC, AC, and Transient simulations.</p>
                 <div class="subtitle"><p>RESULTS</p></div>
                 <p>The simulated amplifier closely matches design specifications, with VDD at 2.5 V, Gain surpassing the minimum by 0.23 dB, and the Supply Current staying 0.1 to 0.4 mA below the specified maximum.</p>
-                <br>
             </div>
-        </div>
+        </div>         
+    </div>
 </div>
 
-<!-- <div id="about">
-    <div class="container">
-        <div class="row">
-            <div class="about-col-1">
-                <iframe src="https://drive.google.com/file/d/1QkYWWfMlWLOX1IAYIkSAt8faHuThrMDl/preview" width="850" height="630" allow="autoplay"></iframe>            
-            </div>
-            <div class="about-col-2">
-                <div class="title"><h2>DIFFERENTIAL AMPLIFIER</h2></div>
-
-                <div class="date"><p>Analog Microcircuit Design</p></div>
-
-                <div class="subtitle"><p>OBJECTIVE</p></div>
-                <p>To create a cost-effective, non-destructive method of assessing Hass avocado maturity using a portable spectrometer prototype. By identifying optimal wavelengths, the research aims to overcome the limitations of conventional postharvest quality assessment methods.</p>
-
-                <div class="subtitle"><p>PROCESS</p></div>
-                <p>Mature avocados were individually sampled and stored to analyze spectral data and develop respective predictive models over time. Wavelength selection involved one-way ANOVA and a Tukey HSD post hoc test to identify sensitive bands for the spectrometer prototype.</p>
-                
-                <div class="subtitle"><p>RESULTS</p></div>
-                <p>The study confirmed that lights in the 890 nm to 930 nm NIR region are statistically more sensitive to physiological changes when measuring the reflectance of ripening avocados with Vis-NIR spectroscopy. The results provide more specific and effective parameters for measuring avocado maturity, aiding further investigations in a nondestructive, cost-effective, and rapid postharvest avocado assessment system.</p>
-                <br>
-            </div>
-        </div>
-</div> -->
-
-<!-- <custom-footer></custom-footer> -->
-
 <script src="headerfooter.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
