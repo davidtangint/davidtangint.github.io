@@ -1,16 +1,16 @@
-# Personal Engineering Portfolio
-Link: [davidtangint.github.io](http://davidtangint.github.io)
+# Engineering Portfolio
+Portfolio Site: [davidtangint.github.io](http://davidtangint.github.io)
 
 Designed and developed by David J. Tang
 
 ### Credits
 ```
 Carousel:
-Bootstrap(getbootstrap.com)
+Bootstrap (getbootstrap.com)
 
 Icons:
 Font Awesome (fontawesome.io)
 
-  Fonts:
+Fonts:
 Google Fonts (fonts.google.com)
 ```
