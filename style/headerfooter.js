@@ -18,10 +18,10 @@ class CustomWorkHeader extends HTMLElement{
     connectedCallback() {
         this.innerHTML = `
         <nav>
-            <a href="index.html" class="name">DAVID J TANG</a>
+            <a href="../index.html" class="name">DAVID J TANG</a>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="index.html#about">About</a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../index.html#about">About</a></li>
                 <li><a href="https://www.linkedin.com/in/davidtangint/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
                 <li><a href="mailto: davidtang.int@gmail.com"><i class="fa-regular fa-envelope"></i></a></li>
             </ul>
