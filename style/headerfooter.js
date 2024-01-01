@@ -35,7 +35,12 @@ class CustomFooter extends HTMLElement{
         this.innerHTML = `
         <div id="copyright">
             <div class="container">
-                <p>© 2023 - 2024 | Developed by David J. Tang | Last Updated 2023/12/31</p>
+                <p>Contents of this site are © Copyright 2023-2024 David Tang. All rights reserved.
+                <br>
+                <a href="https://github.com/davidtangint/davidtangint.github.io/tree/main" target="_blank">Source Code</a>
+                 is available under the 
+                 <a href="https://opensource.org/license/mit/" target="_blank">MIT License</a> |
+                Last Updated 2024/01/01</p>
             </div>
         </div>
         `
