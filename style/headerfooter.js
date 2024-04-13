@@ -2,7 +2,7 @@ class CustomHeader extends HTMLElement{
     connectedCallback() {
         this.innerHTML = `
         <nav>
-            <a href="index.html" class="name">DAVID J TANG</a>
+            <a href="index.html" class="name">DAVID TANG</a>
             <ul>
                 <li><a href="index.html#portfolio">Portfolio</a></li>
                 <li><a href="index.html#about">About</a></li>
@@ -18,7 +18,7 @@ class CustomWorkHeader extends HTMLElement{
     connectedCallback() {
         this.innerHTML = `
         <nav>
-            <a href="../index.html" class="name">DAVID J TANG</a>
+            <a href="../index.html" class="name">DAVID TANG</a>
             <ul>
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="../index.html#about">About</a></li>
